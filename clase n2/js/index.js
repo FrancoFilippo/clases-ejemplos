@@ -142,16 +142,16 @@ if(EDAD >= 17 ){
 
 
               // !=EJERCICIO N1 DE LA TAREA CLASE 2
-/*
-let estaRegistrado =  prompt("Esta registrado? responde con si o no");
-let esMayorDeEdad = prompt("¿es mayor de edad? responde con si o no");
 
-if(estaRegistrado === "si" && esMayorDeEdad === "si"){
-    console.log("bienvenido a la web")
-}else{
-    console.log("acceso denegado")
-}
- */ 
+//  let estaRegistrado =  prompt("Esta registrado? responde con si o no");
+//  let esMayorDeEdad = prompt("¿es mayor de edad? responde con si o no");
+
+//  if(estaRegistrado === "si" && esMayorDeEdad === "si"){
+//      console.log("bienvenido a la web")
+// }else{
+//      console.log("acceso denegado")
+//  }
+
 
 
 // if(estaRegistrado && esMayorDeEdad >= 18 ){
@@ -163,35 +163,35 @@ if(estaRegistrado === "si" && esMayorDeEdad === "si"){
             // !=EJERCICIO N2 DE LA TAREA CLASE 2       
 
 // let enStock = true 
-// let enDescuento = true
+//  let enDescuento = true
 
-// if(enStock == true || enDescuento == true){
+//  if(enStock == true || enDescuento == true){                                             // != CORRECTO
 //     console.log("Producto disponible");
-// }else{ 
-//     console.log("Producto agotado")
-// }
+//  }else{ 
+//      console.log("Producto agotado")
+//  }
 
 
             // !=EJERCICIO N3 DE LA TAREA CLASE 2
 
 
-// let inicioSesion = true
+//  let inicioSesion = prompt("¿Has iniciado sesion? Contestar SI o NO")
 
-// if(inicioSesion == false){
+//     if(inicioSesion === "no"){                                                       // ! = con correccions, fue realizado con propmt y yo lo hice con booleanos nada mas.
 //     console.log("Debe iniciar sesion")
-// }else if(inicioSesion == true){
-//     console.log("Bienvenido Usuario")
-// }
+//  }else{
+//      console.log("Bienvenido Usuario")
+//  }
 
 
             // !=EJERCICIO N4 DE LA TAREA CLASE 2
 
-// let USUARIO =  prompt("Ingrese el usuario")
-// let CONTRASEÑA = prompt("Ingrese la contraseña")
+//   let USUARIO =  prompt("Ingrese el usuario");
+//   let CONTRASEÑA = prompt("Ingrese la contraseña");
 
-// if(USUARIO === "admin" && (CONTRASEÑA === "123456" || CONTRASEÑA === "secreta")){
-//         console.log("bienvenido usuario!")
-// }else{
-//     console.log("Username/password incorrect")
-// } 
-// 
+//   if(USUARIO === "admin" && (CONTRASEÑA === "123456" || CONTRASEÑA === "secreta")){                     // != CORRECTO
+//          console.log("bienvenido usuario!")
+//   }else{
+//      console.log("Username/password incorrect")
+//   } 
+ 
