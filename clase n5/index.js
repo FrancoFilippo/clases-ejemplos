@@ -144,19 +144,33 @@ tipo de madera: algarrobo
 //2 = definir propiedades y metodos
 //3 = podemos declarar herencia
 
-class Persona{
-    constructor(nombre,edad){
-        this.nombre = nombre;
-        this.edad = edad;
-    }
-    saludar(){
-        console.log(`hola mi nombre es ${this.nombre} y tengo ${this.edad}`)
-    }
+// class Persona{
+//     constructor(nombre,edad){
+//         this.nombre = nombre;
+//         this.edad = edad;
+//     }
+//     saludar(){
+//         console.log(`hola mi nombre es ${this.nombre} y tengo ${this.edad}`)
+//     }
 
-} 
+// } 
 
-const PERSONA1 = new Persona("maxi", 31)
-const PERSONA2 = new Persona("Franco", 33)
+// const PERSONA1 = new Persona("maxi", 31)
+// const PERSONA2 = new Persona("Franco", 33)
 
-PERSONA1.saludar();
-PERSONA2.saludar();
+// PERSONA1.saludar();
+// PERSONA2.saludar();
+
+ function   Vinos (lista, nombre, tipo, bodega){
+         this.lista = lista
+         this.nombre = nombre
+         this.tipo = tipo
+         this.bodega = bodega
+ }
+ 
+const VINO_UNO = new Vinos(1,"Emilia","Mlabec","pepito")
+const VINO_DOS = new Vinos(1, "Pedrito", "Cabernet", "pepito")
+
+console.log(VINO_UNO, VINO_DOS) 
+
+
