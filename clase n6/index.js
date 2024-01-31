@@ -137,7 +137,7 @@
 
 // console.log(PERSONAS) 
 
-// // FOR.. OF
+// FOR.. OF
 
 // for(const personaObjetos of PERSONAS){
 //     console.log(personaObjetos);
